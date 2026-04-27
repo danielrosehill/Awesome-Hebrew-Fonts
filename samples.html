@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>Awesome Hebrew Fonts — Samples</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Arimo:wght@400;700&family=Heebo:wght@400;700&family=M+PLUS+Rounded+1c:wght@400;700&family=Fredoka:wght@400;700&family=Suez+One&family=Frank+Ruhl+Libre:wght@400;700&family=Tinos:wght@400;700&family=Cardo:wght@400;700&family=Gveret+Levin&family=Solitreo&family=Playpen+Sans+Hebrew:wght@400;700&family=Alef:wght@400;700&family=Secular+One&family=Bellefair&family=Rubik+Gemstones&family=Rubik+Wet+Paint&family=Rubik+Dirt&family=Rubik+Glitch&family=Handjet&family=Rubik+Iso&family=Rubik+Moonrocks&family=Rubik+Doodle+Shadow&family=Noto+Serif+Hebrew:wght@400;700&family=Libertinus+Serif&family=Miriam+Libre:wght@400;700&family=David+Libre:wght@400;700&family=Cascadia+Code&family=Noto+Rashi+Hebrew&display=swap" rel="stylesheet">
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: system-ui, sans-serif; max-width: 920px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
+  h1 { margin-bottom: 0.25rem; }
+  .sub { color: #888; margin-top: 0; }
+  h2 { margin-top: 2.5rem; border-bottom: 1px solid #ccc; padding-bottom: 0.25rem; }
+  .card { border: 1px solid #ddd; border-radius: 8px; padding: 1rem 1.25rem; margin: 1rem 0; }
+  .card .meta { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; font-size: 0.85rem; color: #666; flex-wrap: wrap; }
+  .card .meta a { color: inherit; }
+  .sample { font-size: 2rem; line-height: 1.3; margin: 0.5rem 0 0; }
+  .small { font-size: 1rem; color: #555; margin-top: 0.5rem; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #111; color: #eee; }
+    .card { border-color: #333; }
+    .small { color: #aaa; }
+  }
+</style>
+</head>
+<body>
+
+<h1>Awesome Hebrew Fonts</h1>
+<p class="sub">Live samples — rendered via the Google Fonts CDN. Snapshot: April 2026.</p>
+<p>Sample text: <strong>שלום עולם — בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ.</strong></p>
+
+<script>
+const SAMPLE = "שלום עולם — בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ.";
+const SMALL  = "האותיות א ב ג ד ה ו ז ח ט י כ ל מ נ ס ע פ צ ק ר ש ת — 0123456789 — The quick brown fox.";
+
+const groups = [
+  { title: "Daily Drivers", fonts: ["Open Sans","Arimo"] },
+  { title: "Daily Drivers — Google Sans", fonts: ["Google Sans"], note: "Google Sans is Google-branded; if it doesn't render, the CDN may not serve it for your domain. Fallback shown." },
+  { title: "Stylistic", fonts: ["Heebo","M PLUS Rounded 1c","Fredoka","Suez One"] },
+  { title: "Formal / Liturgical", fonts: ["Frank Ruhl Libre","Tinos","Cardo"] },
+  { title: "Cursive / Handwriting", fonts: ["Gveret Levin","Solitreo","Playpen Sans Hebrew"] },
+  { title: "Easy to Read", fonts: ["Alef","Secular One","Bellefair"] },
+  { title: "Creative & Effects", fonts: ["Rubik Gemstones","Rubik Wet Paint","Rubik Dirt","Rubik Glitch","Handjet","Rubik Iso","Rubik Moonrocks"] },
+  { title: "Stencil", fonts: ["Rubik Doodle Shadow"] },
+  { title: "Serif", fonts: ["Noto Serif Hebrew","Libertinus Serif"] },
+  { title: "Nice", fonts: ["Miriam Libre","David Libre"] },
+  { title: "Code / Monospace", fonts: ["Cascadia Code"] },
+  { title: "Rashi Script", fonts: ["Noto Rashi Hebrew"] },
+];
+
+const root = document.body;
+for (const g of groups) {
+  const h = document.createElement("h2");
+  h.textContent = g.title;
+  h.dir = "ltr";
+  root.appendChild(h);
+  if (g.note) {
+    const p = document.createElement("p");
+    p.dir = "ltr";
+    p.style.color = "#888";
+    p.style.fontSize = "0.85rem";
+    p.textContent = g.note;
+    root.appendChild(p);
+  }
+  for (const name of g.fonts) {
+    const card = document.createElement("div");
+    card.className = "card";
+    const meta = document.createElement("div");
+    meta.className = "meta"; meta.dir = "ltr";
+    const link = document.createElement("a");
+    link.href = "https://fonts.google.com/specimen/" + name.replace(/ /g, "+") + "?script=Hebr";
+    link.target = "_blank"; link.rel = "noopener";
+    link.textContent = name;
+    meta.appendChild(link);
+    const css = document.createElement("code");
+    css.textContent = `font-family: '${name}', sans-serif;`;
+    meta.appendChild(css);
+    card.appendChild(meta);
+
+    const big = document.createElement("p");
+    big.className = "sample";
+    big.style.fontFamily = `'${name}', sans-serif`;
+    big.textContent = SAMPLE;
+    card.appendChild(big);
+
+    const sm = document.createElement("p");
+    sm.className = "small";
+    sm.style.fontFamily = `'${name}', sans-serif`;
+    sm.textContent = SMALL;
+    card.appendChild(sm);
+
+    root.appendChild(card);
+  }
+}
+</script>
+
+</body>
+</html>
