@@ -1,5 +1,7 @@
 # Awesome Hebrew Fonts
 
+![banner](banner.webp)
+
 A curated, point-in-time (April 2026) list of great Hebrew fonts available via [Google Fonts](https://fonts.google.com/?subset=hebrew).
 
 Maintained by [Daniel Rosehill](https://danielrosehill.com). Opinions are my own — these are fonts I actually use or appreciate.
@@ -29,115 +31,273 @@ The data lives in `fonts.json`. The installer reads from there, downloads TTFs (
 
 Dependencies: `bash`, `curl`, `unzip`, `jq`. The GUI additionally uses `zenity` or `kdialog`.
 
-## The List
+---
 
-### Daily Drivers
+## Daily Drivers
 
 Solid, neutral workhorses for body copy, UI, and documents.
 
-| Font | Google Fonts | Notes |
-|---|---|---|
-| Open Sans | [link](https://fonts.google.com/specimen/Open+Sans?script=Hebr) | Ubiquitous humanist sans; great Hebrew coverage |
-| Google Sans | [link](https://fonts.google.com/specimen/Google+Sans?script=Hebr) | Google's brand sans |
-| Arimo | [link](https://fonts.google.com/specimen/Arimo?script=Hebr) | Metric-compatible with Arial |
+### Open Sans
 
-### Stylistic
+![Open Sans sample](samples/open-sans.webp)
+
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Open+Sans?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Open+Sans)
+
+### Google Sans
+
+![Google Sans sample](samples/google-sans.webp)
+
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Google+Sans?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Google+Sans)
+
+### Arimo
+
+![Arimo sample](samples/arimo.webp)
+
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Arimo?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Arimo)
+
+---
+
+## Stylistic
 
 A bit more personality — for headlines, marketing, friendly UIs.
 
-| Font | Google Fonts |
-|---|---|
-| Heebo | [link](https://fonts.google.com/specimen/Heebo?script=Hebr) |
-| M PLUS Rounded 1c | [link](https://fonts.google.com/specimen/M+PLUS+Rounded+1c?script=Hebr) |
-| Fredoka | [link](https://fonts.google.com/specimen/Fredoka?script=Hebr) |
-| Suez One | [link](https://fonts.google.com/specimen/Suez+One?script=Hebr) |
+### Heebo
 
-### Formal / Liturgical
+![Heebo sample](samples/heebo.webp)
+
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Heebo?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Heebo)
+
+### M PLUS Rounded 1c
+
+![M PLUS Rounded 1c sample](samples/mplus-rounded.webp)
+
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/M+PLUS+Rounded+1c?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=M+PLUS+Rounded+1c)
+
+### Fredoka
+
+![Fredoka sample](samples/fredoka.webp)
+
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Fredoka?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Fredoka)
+
+### Suez One
+
+![Suez One sample](samples/suez-one.webp)
+
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Suez+One?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Suez+One)
+
+---
+
+## Formal / Liturgical
 
 Serifs and classical faces suitable for prayer books, formal documents, long-form Hebrew/English bilingual text.
 
-| Font | Google Fonts |
-|---|---|
-| Frank Ruhl Libre | [link](https://fonts.google.com/specimen/Frank+Ruhl+Libre?script=Hebr) |
-| Tinos | [link](https://fonts.google.com/specimen/Tinos?script=Hebr) |
-| Cardo | [link](https://fonts.google.com/specimen/Cardo?script=Hebr) |
+### Frank Ruhl Libre
 
-### Cursive / Handwriting
+![Frank Ruhl Libre sample](samples/frank-ruhl.webp)
 
-| Font | Google Fonts |
-|---|---|
-| Gveret Levin | [link](https://fonts.google.com/specimen/Gveret+Levin?script=Hebr) |
-| Solitreo | [link](https://fonts.google.com/specimen/Solitreo?script=Hebr) |
-| Playpen Sans Hebrew | [link](https://fonts.google.com/specimen/Playpen+Sans+Hebrew?script=Hebr) |
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Frank+Ruhl+Libre?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Frank+Ruhl+Libre)
 
-### Easy to Read
+### Tinos
+
+![Tinos sample](samples/tinos.webp)
+
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Tinos?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Tinos)
+
+### Cardo
+
+![Cardo sample](samples/cardo.webp)
+
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Cardo?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Cardo)
+
+---
+
+## Cursive / Handwriting
+
+### Gveret Levin
+
+![Gveret Levin sample](samples/gveret-levin.webp)
+
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Gveret+Levin?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Gveret+Levin)
+
+### Solitreo
+
+![Solitreo sample](samples/solitreo.webp)
+
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Solitreo?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Solitreo)
+
+### Playpen Sans Hebrew
+
+![Playpen Sans Hebrew sample](samples/playpen-sans.webp)
+
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Playpen+Sans+Hebrew?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Playpen+Sans+Hebrew)
+
+---
+
+## Easy to Read
 
 High legibility, generous proportions — good for accessibility-conscious work.
 
-| Font | Google Fonts |
-|---|---|
-| Alef | [link](https://fonts.google.com/specimen/Alef?script=Hebr) |
-| Secular One | [link](https://fonts.google.com/specimen/Secular+One?script=Hebr) |
-| Bellefair | [link](https://fonts.google.com/specimen/Bellefair?script=Hebr) |
+### Alef
 
-### Creative & Effects
+![Alef sample](samples/alef.webp)
+
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Alef?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Alef)
+
+### Secular One
+
+![Secular One sample](samples/secular-one.webp)
+
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Secular+One?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Secular+One)
+
+### Bellefair
+
+![Bellefair sample](samples/bellefair.webp)
+
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Bellefair?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Bellefair)
+
+---
+
+## Creative & Effects
 
 Display-only — posters, social, branding moments.
 
-| Font | Google Fonts |
-|---|---|
-| Rubik Gemstones | [link](https://fonts.google.com/specimen/Rubik+Gemstones?script=Hebr) |
-| Rubik Wet Paint | [link](https://fonts.google.com/specimen/Rubik+Wet+Paint?script=Hebr) |
-| Rubik Dirt | [link](https://fonts.google.com/specimen/Rubik+Dirt?script=Hebr) |
-| Rubik Glitch | [link](https://fonts.google.com/specimen/Rubik+Glitch?script=Hebr) |
-| Handjet | [link](https://fonts.google.com/specimen/Handjet?script=Hebr) |
-| Rubik Iso | [link](https://fonts.google.com/specimen/Rubik+Iso?script=Hebr) |
-| Rubik Moonrocks | [link](https://fonts.google.com/specimen/Rubik+Moonrocks?script=Hebr) |
+### Rubik Gemstones
 
-### Stencil
+![Rubik Gemstones sample](samples/rubik-gemstones.webp)
 
-| Font | Google Fonts |
-|---|---|
-| Rubik Doodle Shadow | [link](https://fonts.google.com/specimen/Rubik+Doodle+Shadow?script=Hebr) |
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Rubik+Gemstones?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Rubik+Gemstones)
 
-### Serif
+### Rubik Wet Paint
 
-| Font | Google Fonts |
-|---|---|
-| Noto Serif Hebrew | [link](https://fonts.google.com/specimen/Noto+Serif+Hebrew?script=Hebr) |
-| Libertinus Serif | [link](https://fonts.google.com/specimen/Libertinus+Serif?script=Hebr) |
+![Rubik Wet Paint sample](samples/rubik-wet-paint.webp)
 
-### Nice (general purpose, slightly characterful)
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Rubik+Wet+Paint?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Rubik+Wet+Paint)
 
-| Font | Google Fonts |
-|---|---|
-| Miriam Libre | [link](https://fonts.google.com/specimen/Miriam+Libre?script=Hebr) |
-| David Libre | [link](https://fonts.google.com/specimen/David+Libre?script=Hebr) |
+### Rubik Dirt
 
-### Code / Monospace
+![Rubik Dirt sample](samples/rubik-dirt.webp)
 
-| Font | Google Fonts |
-|---|---|
-| Cascadia Code | [link](https://fonts.google.com/specimen/Cascadia+Code?script=Hebr) |
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Rubik+Dirt?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Rubik+Dirt)
 
-### Rashi Script
+### Rubik Glitch
 
-| Font | Google Fonts |
-|---|---|
-| Noto Rashi Hebrew | [link](https://fonts.google.com/specimen/Noto+Rashi+Hebrew?script=Hebr) |
+![Rubik Glitch sample](samples/rubik-glitch.webp)
 
-## Samples
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Rubik+Glitch?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Rubik+Glitch)
 
-Open `samples.html` in any browser for a live preview of every font with Hebrew sample text (rendered via the Google Fonts CDN — no install required).
+### Handjet
 
-## Installer
+![Handjet sample](samples/handjet.webp)
 
-`install.sh` downloads TTFs to `~/.local/share/fonts/google/<family>/` and runs `fc-cache`. Linux/macOS only. Requires `curl` and `unzip`.
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Handjet?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Handjet)
 
-Flags:
-- `--list` — print the font list and exit
-- `--category <name>...` — install only specific categories (`daily`, `stylistic`, `formal`, `cursive`, `easy`, `creative`, `stencil`, `serif`, `nice`, `code`, `rashi`)
-- `--dry-run` — show what would be downloaded
+### Rubik Iso
+
+![Rubik Iso sample](samples/rubik-iso.webp)
+
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Rubik+Iso?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Rubik+Iso)
+
+### Rubik Moonrocks
+
+![Rubik Moonrocks sample](samples/rubik-moonrocks.webp)
+
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Rubik+Moonrocks?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Rubik+Moonrocks)
+
+---
+
+## Stencil
+
+### Rubik Doodle Shadow
+
+![Rubik Doodle Shadow sample](samples/rubik-doodle-shadow.webp)
+
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Rubik+Doodle+Shadow?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Rubik+Doodle+Shadow)
+
+---
+
+## Serif
+
+### Noto Serif Hebrew
+
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Noto+Serif+Hebrew?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Noto+Serif+Hebrew)
+
+### Libertinus Serif
+
+![Libertinus Serif sample](samples/libertinus-serif.webp)
+
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Libertinus+Serif?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Libertinus+Serif)
+
+---
+
+## Nice (general purpose, slightly characterful)
+
+### Miriam Libre
+
+![Miriam Libre sample](samples/miriam-libre.webp)
+
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Miriam+Libre?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Miriam+Libre)
+
+### David Libre
+
+![David Libre sample](samples/david-libre.webp)
+
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/David+Libre?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=David+Libre)
+
+---
+
+## Code / Monospace
+
+### Cascadia Code
+
+![Cascadia Code sample](samples/cascadia-code.webp)
+
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Cascadia+Code?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Cascadia+Code)
+
+---
+
+## Rashi Script
+
+### Noto Rashi Hebrew
+
+![Noto Rashi Hebrew sample](samples/noto-rashi.webp)
+
+[![View in Google Fonts](https://img.shields.io/badge/View_in-Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/specimen/Noto+Rashi+Hebrew?script=Hebr)
+[![Download](https://img.shields.io/badge/Download-ZIP-success?style=for-the-badge&logo=download&logoColor=white)](https://fonts.google.com/download?family=Noto+Rashi+Hebrew)
+
+---
+
+## Live Samples
+
+For an in-browser preview rendered via the Google Fonts CDN (no install required), open `samples.html`.
 
 ## Beyond Google Fonts — Other Resources
 
